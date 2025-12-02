@@ -20,7 +20,7 @@ List **buyer addresses** for a given token on **Solana (SOL)** within a **specif
 ## 🧠 Notes
 - Configure the **token** and **time range** inside the script (or via CLI args if you implemented them).
 - Easy upgrades: export CSV/JSON, dedupe addresses, rank by buy count/volume.
-- We leverage Helios to query data.
+- We leverage https://www.helius.dev/ to query data.
 
 ## 📄 License
 MIT
