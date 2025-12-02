@@ -15,10 +15,11 @@ List **buyer addresses** for a given token on **Solana (SOL)** within a **specif
 - `pip install requests`
 
 ## 🚀 Usage
-- `python insiders_sniffer.py`
 - `$env:HELIUS_KEY="YOUR_FREE_HELIUS_API_KEY"` for Windows (Powershell)
 - `set "YOUR_FREE_HELIUS_API_KEY"` for Windows (CMD)
 - `export HELIUS_KEY="YOUR_FREE_HELIUS_API_KEY"` for Ubuntu
+
+- `python insiders_sniffer.py`
 
 ## 🧠 Notes
 - Configure the **token** and **time range** inside the script (or via CLI args if you implemented them).
