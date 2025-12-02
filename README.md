@@ -1,8 +1,26 @@
-# insiders_sniffer
-List buyers addresses for a given token on SOL + given time range
+# 🕵️‍♂️ insiders_sniffer
 
+List **buyer addresses** for a given token on **Solana (SOL)** within a **specified time range**.
 
-###USAGE###
+## ✨ Features
+- Extracts buyer wallet addresses for a specific token
+- Filters results over a custom time window (time range)
+- Lightweight script you can run locally
 
-pip install request
-python insiders_sniffer.py
+## 📦 Requirements
+- Python 3.9+ recommended
+- `requests` library
+
+## ⚡ Installation
+- `pip install requests`
+
+## 🚀 Usage
+- `python insiders_sniffer.py`
+
+## 🧠 Notes
+- Configure the **token** and **time range** inside the script (or via CLI args if you implemented them).
+- Easy upgrades: export CSV/JSON, dedupe addresses, rank by buy count/volume.
+- We leverage Helios to query data.
+
+## 📄 License
+MIT
